@@ -1,0 +1,6 @@
+1. Postgresql and pgAdmin installed
+2. VS code or any other txt editor
+3. Create Database name and usernmame as per the names mentioned in settings.py
+4. These commands are required after coming to project directory---
+          python3 manage.py makemigrations
+          python3 manage.py migrate
