@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Logged IN</title>
+
+  </head>
+  <body bgcolor="lightgrey">
+    <form action="registration">
+      <input type="submit" id="b1" value="Create New Student" style="display: inline-block;
+  border-radius: 4px;
+  background-color: yellow;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width:100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;">
+      </form>
+      <form action="details" method="post">
+        {% csrf_token %}
+<input class="input100" type="text" name="enrollment" placeholder="Enrollment Number here" style="padding:20px; margin:200px; left-margin:50px;">
+
+<input type="submit" name="search" value="Search" style=" background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 1px;
+  cursor: pointer;
+  left-margin:20px;">
+
+
+
+</form>
+
+
+
+
+
+
+  </body>
+</html>
